@@ -1,0 +1,165 @@
+
+
+body {
+    font: Arial, sans-serif;
+    color: #000000;
+    background-color: #f2f9f9;
+    padding: 5px;
+
+}
+/*sections */
+section{
+      
+    margin-bottom: 25px ;   
+    padding: 20px; ;
+    background-color:white ;
+    border: 1px solid green; 
+
+    /*Round corners*/
+    border-radius: 10px;
+
+    /*Addds shadows around each section*/
+    box-shadow:0 2px 6px rgba( 0, 0, 0, 0.10);
+
+}
+
+/* Color of the links*/
+
+a {
+    color: #2ad014;
+}
+
+
+/*Navigation*/
+
+nav {
+    background-color: #000000;
+    padding: 15px;
+    text-align: center;
+
+    /*sopace between header and the navigation bar*/
+    margin-top: 10px;
+    border-radius: 8px;
+}
+nav a {
+color:#f2f9f9;
+text-decoration: none;    
+font-weight: bold;
+
+/* em is a relative unit. 
+    
+    1em is based on the font size of the element. */
+ 
+padding: 0.5em 1em;
+
+/* border-radius gives the navigation links slightly rounded corners. */
+border-radius: 5px;
+
+/* transition creates a smooth change when the hover effect occurs. */
+transform: 0.3s ;
+}
+
+/*======================================================== 
+    4.2 NAVIGATION LIST - FLEXBOX 
+    ========================================================= */ 
+    
+    /* Flexbox is used to arrange elements in a row or column. 
+    
+    display: flex turns the navigation list into a flex container. 
+    justify-content controls horizontal positioning. 
+    align-items controls vertical positioning. 
+    gap creates consistent spacing between the links. */ 
+    
+    nav ul { 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 20px;
+        
+            /* Remove the default bullet points. */ 
+            list-style: none; 
+        
+        /* Remove the browser's default padding. */ 
+        padding: 0; 
+        
+        /* Remove the browser's default margin. */ 
+        margin: 0; }
+
+/* Change the navigation link when the mouse is over it */
+
+/* :hover applies when the mouse pointer is placed 
+    over an element. 
+    
+    Here the navigation link changes appearance 
+    when the user moves the mouse over it. 
+*/
+nav a:hover {
+    background-color: #999795; 
+    text-decoration: underline;
+}
+
+
+nav a:focus {
+    outline: 3px solid #dcdacc;
+    outline-offset: 3px;
+}
+
+/*The buttons*/
+button {
+    background-color: wheat;
+    color: #2ad014;
+    padding: 12px 25px;
+    border: none;
+     
+    font-size: 1rem;
+
+    /*for interractive  button motion*/
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+   background-color: darkgreen;
+}
+
+.fourway-grid {
+    display: grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+gap: 5px;
+
+}
+.threeway-grid {
+     display: grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+gap: 5px;
+
+}
+
+.mission-card{
+    background: #f2f9f9;
+    border: 1px #2ad014;
+    padding: 20px;
+    border-radius: 8px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
