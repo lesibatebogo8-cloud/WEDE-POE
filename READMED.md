@@ -132,5 +132,6 @@ The following resources were used for information and guidance during the develo
 
 5. Microsoft. (2026). **Visual Studio Code Documentation**. Available at: https://code.visualstudio.com/docs
 
+6. https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9iEnds1WN_8FDpyejN-3bmAb2ZgJdMrelWXW51XOTPVYxC4AXvHi19JU&s=10
 
 
