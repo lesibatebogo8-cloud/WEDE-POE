@@ -3,12 +3,8 @@
  Name: Tebogo Seloana 
  Student Number: ST10522460
  
-
-Welcome to **Lunar Gaming**, a gaming website designed for gamers to discover games, explore gaming services, and connect with the gaming community.
-
  Project Structure
 
-```text
 Lunar-Gaming/
 │
 ├── index.html
@@ -17,10 +13,8 @@ Lunar-Gaming/
 ├── enquiry.html
 ├── contact.html
 │
-└── images/
-    ├── gaming-hero.jpg
-    └── gaming-about.jpg
-```
+└── images/![alt text](images/gamin-setup-ideas_ralexanderr-821x1024.webp)
+    
 
 Website Pages
 
@@ -75,48 +69,7 @@ The contact page provides:
 * Contact information
 * Business hours
 * Contact form
-* Social media links
 * Frequently asked questions
-* Gamer comments
-
-
-
-The website currently uses:
-
-* **HTML5**
-* HTML tables
-* HTML forms
-* HTML links
-* HTML images
-* HTML lists
-* HTML semantic elements
-
-No CSS or JavaScript has been added yet.
-
- How to Run the Website
-
-1. Download or copy the project files.
-2. Keep all HTML files in the same folder.
-3. Create an `images` folder.
-4. Add the required images to the `images` folder.
-5. Open `index.html` in a web browser.
-6. Use the navigation links to move between the pages.
-
- Future Improvements
-
-The website can later be improved by adding:
-
- CSS styling
- JavaScript functionality
- Game search
- Game filtering
- Login and registration
- Online game reviews
- Working enquiry forms
- Database integration
- User profiles
- Gaming tournaments
- Responsive mobile design
 
  References
 
@@ -132,6 +85,6 @@ The following resources were used for information and guidance during the develo
 
 5. Microsoft. (2026). **Visual Studio Code Documentation**. Available at: https://code.visualstudio.com/docs
 
-6. https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9iEnds1WN_8FDpyejN-3bmAb2ZgJdMrelWXW51XOTPVYxC4AXvHi19JU&s=10
+
 
 
