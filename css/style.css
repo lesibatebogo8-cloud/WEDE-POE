@@ -94,20 +94,20 @@ transform: 0.3s ;
     when the user moves the mouse over it. 
 */
 nav a:hover {
-    background-color: #999795; 
+    background-color: #31f067; 
     text-decoration: underline;
 }
 
 
 nav a:focus {
-    outline: 3px solid #dcdacc;
+    outline: 3px solid #0d150e;
     outline-offset: 3px;
 }
 
 /*The buttons*/
 button {
-    background-color: wheat;
-    color: #2ad014;
+    background-color: rgb(20, 20, 19);
+    color: wheat;
     padding: 12px 25px;
     border: none;
      
@@ -119,7 +119,7 @@ button {
 }
 
 button:hover {
-   background-color: darkgreen;
+   background-color: rgb(193, 214, 30);
 }
 
 .fourway-grid {
@@ -139,9 +139,18 @@ gap: 5px;
 
 }
 
+.twoway-grid {
+     display: grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+gap: 5px;
+
+}
+
 .mission-card{
-    background: #f2f9f9;
-    border: 1px #2ad014;
+    background: #dfdbdb;
+    border: 1px #07ed45;
     padding: 20px;
     border-radius: 8px ;
 }
