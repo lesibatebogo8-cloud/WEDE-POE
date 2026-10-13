@@ -14,7 +14,16 @@ Lunar-Gaming/
 ├── contact.html
 │
 └── images/![alt text](images/gamin-setup-ideas_ralexanderr-821x1024.webp)
-    
+
+Project Overview
+
+Lunar Gaming is a gaming website created to provide gamers with information about games, gaming services, tournaments, gaming communities and upcoming games.
+
+The website is designed as a simple and user-friendly gaming platform where visitors can explore different gaming categories, learn about available services and packages, and contact Lunar Gaming for more information.
+
+The website contains five main pages: Home, About, Services, Enquiry and Contact. The pages are connected through a navigation menu so that users can easily move around the website.
+
+The website was developed using HTML and CSS. Images are also used to improve the visual presentation of the website.
 
 Website Pages
 
@@ -70,6 +79,10 @@ The contact page provides:
 * Business hours
 * Contact form
 * Frequently asked questions
+
+
+
+
 
  References
 
