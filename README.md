@@ -25,6 +25,19 @@ The website contains five main pages: Home, About, Services, Enquiry and Contact
 
 The website was developed using HTML and CSS. Images are also used to improve the visual presentation of the website.
 
+
+The objectives of the website are to:
+
+- Provide information about different games and gaming categories.
+- Allow users to discover games across different genres and platforms.
+- Provide information about gaming services.
+- Promote gaming tournaments and competitive gaming.
+- Provide information about gaming packages and prices.
+- Create a space where gamers can learn about the Lunar Gaming community.
+- Allow visitors to make enquiries through an online form.
+- Provide contact information and business hours.
+- Create a simple and attractive website that is easy to navigate.
+
 Website Pages
 
  Home — `index.html`
