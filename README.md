@@ -14,7 +14,29 @@ Lunar-Gaming/
 ├── contact.html
 │
 └── images/![alt text](images/gamin-setup-ideas_ralexanderr-821x1024.webp)
-    
+
+Project Overview
+
+Lunar Gaming is a gaming website created to provide gamers with information about games, gaming services, tournaments, gaming communities and upcoming games.
+
+The website is designed as a simple and user-friendly gaming platform where visitors can explore different gaming categories, learn about available services and packages, and contact Lunar Gaming for more information.
+
+The website contains five main pages: Home, About, Services, Enquiry and Contact. The pages are connected through a navigation menu so that users can easily move around the website.
+
+The website was developed using HTML and CSS. Images are also used to improve the visual presentation of the website.
+
+
+The objectives of the website are to:
+
+- Provide information about different games and gaming categories.
+- Allow users to discover games across different genres and platforms.
+- Provide information about gaming services.
+- Promote gaming tournaments and competitive gaming.
+- Provide information about gaming packages and prices.
+- Create a space where gamers can learn about the Lunar Gaming community.
+- Allow visitors to make enquiries through an online form.
+- Provide contact information and business hours.
+- Create a simple and attractive website that is easy to navigate.
 
 Website Pages
 
@@ -84,6 +106,29 @@ The following resources were used for information and guidance during the develo
 4. W3C. (2026). **HTML and Web Standards**. Available at: https://www.w3.org/
 
 5. Microsoft. (2026). **Visual Studio Code Documentation**. Available at: https://code.visualstudio.com/docs
+
+
+## Changelog
+
+### Part 1
+- Created the Lunar Gaming website structure.
+- Added the Home page.
+- Added the About page.
+- Added the Services page.
+- Added the Enquiry page.
+- Added the Contact page.
+- Added navigation between pages.
+- Added images and gaming content.
+### Part 2 
+- Added CSS styling.
+- Added forms for enquiries and contact information.
+### Future Updates
+- Improve responsive design.
+- Improve form functionality.
+- Add more gaming content.
+- Improve accessibility.
+- Add additional interactive features.
+
 
 
 
