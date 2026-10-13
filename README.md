@@ -93,10 +93,6 @@ The contact page provides:
 * Contact form
 * Frequently asked questions
 
-
-
-
-
  References
 
 The following resources were used for information and guidance during the development of the Lunar Gaming website:
@@ -110,6 +106,29 @@ The following resources were used for information and guidance during the develo
 4. W3C. (2026). **HTML and Web Standards**. Available at: https://www.w3.org/
 
 5. Microsoft. (2026). **Visual Studio Code Documentation**. Available at: https://code.visualstudio.com/docs
+
+
+## Changelog
+
+### Part 1
+- Created the Lunar Gaming website structure.
+- Added the Home page.
+- Added the About page.
+- Added the Services page.
+- Added the Enquiry page.
+- Added the Contact page.
+- Added navigation between pages.
+- Added images and gaming content.
+### Part 2 
+- Added CSS styling.
+- Added forms for enquiries and contact information.
+### Future Updates
+- Improve responsive design.
+- Improve form functionality.
+- Add more gaming content.
+- Improve accessibility.
+- Add additional interactive features.
+
 
 
 
