@@ -3,7 +3,7 @@
  Name: Tebogo Seloana 
  Student Number: ST10522460
  
- Project Structure
+### Project Structure
 
 Lunar-Gaming/
 │
@@ -15,7 +15,8 @@ Lunar-Gaming/
 │
 └── images/![alt text](images/gamin-setup-ideas_ralexanderr-821x1024.webp)
 
-Project Overview
+
+### Project Overview
 
 Lunar Gaming is a gaming website created to provide gamers with information about games, gaming services, tournaments, gaming communities and upcoming games.
 
@@ -26,7 +27,7 @@ The website contains five main pages: Home, About, Services, Enquiry and Contact
 The website was developed using HTML and CSS. Images are also used to improve the visual presentation of the website.
 
 
-The objectives of the website are to:
+### The objectives of the website are to:
 
 - Provide information about different games and gaming categories.
 - Allow users to discover games across different genres and platforms.
@@ -38,7 +39,7 @@ The objectives of the website are to:
 - Provide contact information and business hours.
 - Create a simple and attractive website that is easy to navigate.
 
-Website Pages
+### Website Pages
 
  Home — `index.html`
 
@@ -93,7 +94,7 @@ The contact page provides:
 * Contact form
 * Frequently asked questions
 
- References
+ ### References
 
 The following resources were used for information and guidance during the development of the Lunar Gaming website:
 
