@@ -74,7 +74,7 @@
                 </nav>
 <hr>
 
-<main>
+<main id="main">
 
 
     <!-- ================= INTRODUCTION ================= -->
@@ -150,6 +150,8 @@
     type="button"
     aria-expanded="false"
     aria-controls="services-details"
+    data-show-text="Show Services"
+    data-hide-text="Hide Services"
     >
     Show Services
     </button>
@@ -325,24 +327,22 @@
 
       <section  class="threeway-grid">  
 
-            
-
-
-            <!-- BASIC -->
-
-            <tr align="center">
-
                 
-
+            <div class="mission-card">
                     <h3>
                         GAMER
                     </h3>
-
-                </tr>
-
-
-                <td align="left">
-
+                 <ul>
+                    <li>Game discovery</li>
+                    <li>Community access</li>
+                    <li>Gaming news</li>
+                </ul>
+                <p class="price" data-price>FREE</p>
+                <button type="button" data-package="gamer">VIEW DETAILS</button>
+           
+</div>
+                <!--PRO-->
+<div class="mission-card">
                     <ul>
 
                         <li>
@@ -358,109 +358,26 @@
                         </li>
 
                     </ul>
+<p class="price" data-price>R199 / MONTH</p>
+                <button type="button" data-package="pro">VIEW DETAILS</button>
+            
+                </div>
+                   
+               c  <!-- ELITE -->
+            <div class="mission-card">
+                <h3>ELITE GAMER</h3>
+                <ul>
+                    <li>Everything in Pro Gamer</li>
+                    <li>Personal coaching</li>
+                    <li>Premium tournaments</li>
+                    <li>Gaming setup support</li>
+                </ul>
+                <p class="price" data-price>R399 / MONTH</p>
+                <button type="button" data-package="elite">VIEW DETAILS</button>
+            </div>
 
-                </td>
-                    <strong>
-                        FREE
-                    </strong>
-
-                
-            <!-- PRO -->
-
-            <tr align="center">
-
-                
-
-                    <h3>
-                        PRO GAMER
-                    </h3>
-            </tr>
-                
-
-
-                <td align="left">
-
-                    <ul>
-
-                        <li>
-                            Everything in Gamer
-                        </li>
-
-                        <li>
-                            Gaming coaching
-                        </li>
-
-                        <li>
-                            Tournament access
-                        </li>
-
-                        <li>
-                            Strategy support
-                        </li>
-
-                    </ul>
-
-                
-
-
-                <td>
-
-                    <strong>
-                        R199 / MONTH
-                    </strong>
-
-                </td>
-
-            <!-- ELITE -->
-
-            <tr align="center">
-
-                <td>
-
-                    <h3>
-                        ELITE GAMER
-                    </h3>
-
-                </td>
-
-
-                <td align="left">
-
-                    <ul>
-
-                        <li>
-                            Everything in Pro Gamer
-                        </li>
-
-                        <li>
-                            Personal coaching
-                        </li>
-
-                        <li>
-                            Premium tournaments
-                        </li>
-
-                        <li>
-                            Gaming setup support
-                        </li>
-
-                    </ul>
-
-                </td>
-
-
-                <td>
-
-                    <strong>
-
-                        R399 / MONTH
-
-                    </strong>
-
-                </td>
-  </section>
-    </section>
-
+  </section>    
+                   </section>
 
     <br>
 
@@ -766,7 +683,17 @@
     </p>
 
 </footer>
+<dialog id="package-dialog" aria-labelledby="package-title">
+    <h2 id="package-title" data-modal-title></h2>
+    <div data-modal-body></div>
+    <div class="dialog-actions">
+        <a class="btn" data-modal-link href="enquiry.html">ENQUIRE ABOUT THIS PACKAGE</a>
+        <button type="button" data-close>CLOSE</button>
+    </div>
+</dialog>
 
+<script src="js/data.js" defer></script>
+<script src="js/script.js" defer></script>
 
 </body>
 
