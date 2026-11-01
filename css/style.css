@@ -3,7 +3,7 @@
 body {
     font: Arial, sans-serif;
     color: #000000;
-    background-color: #f2f9f9;
+    background-color: #939898;
     padding: 5px;
 
 }
@@ -13,7 +13,7 @@ section{
     margin-bottom: 25px ;   
     padding: 20px; ;
     background-color:white ;
-    border: 1px solid green; 
+    border: 2px solid rgb(17, 232, 17); 
 
     /*Round corners*/
     border-radius: 10px;
@@ -26,7 +26,7 @@ section{
 /* Color of the links*/
 
 a {
-    color: #2ad014;
+    color: wheat;
 }
 
 
@@ -58,17 +58,7 @@ border-radius: 5px;
 /* transition creates a smooth change when the hover effect occurs. */
 transform: 0.3s ;
 }
-
-/*======================================================== 
-    4.2 NAVIGATION LIST - FLEXBOX 
-    ========================================================= */ 
-    
-    /* Flexbox is used to arrange elements in a row or column. 
-    
-    display: flex turns the navigation list into a flex container. 
-    justify-content controls horizontal positioning. 
-    align-items controls vertical positioning. 
-    gap creates consistent spacing between the links. */ 
+ 
     
     nav ul { 
         display: flex; 
@@ -85,14 +75,7 @@ transform: 0.3s ;
         /* Remove the browser's default margin. */ 
         margin: 0; }
 
-/* Change the navigation link when the mouse is over it */
 
-/* :hover applies when the mouse pointer is placed 
-    over an element. 
-    
-    Here the navigation link changes appearance 
-    when the user moves the mouse over it. 
-*/
 nav a:hover {
     background-color: #31f067; 
     text-decoration: underline;
@@ -107,9 +90,10 @@ nav a:focus {
 /*The buttons*/
 button {
     background-color: rgb(20, 20, 19);
-    color: wheat;
+    color: rgb(45, 231, 20);
     padding: 12px 25px;
     border: none;
+    border-radius: 6px;
      
     font-size: 1rem;
 
@@ -119,7 +103,7 @@ button {
 }
 
 button:hover {
-   background-color: rgb(193, 214, 30);
+   background-color: rgb(147, 148, 142);
 }
 
 .fourway-grid {
@@ -130,6 +114,9 @@ button:hover {
 gap: 5px;
 
 }
+
+
+/*Puts important info side by side in 3's*/
 .threeway-grid {
      display: grid;
 
@@ -139,6 +126,8 @@ gap: 5px;
 
 }
 
+
+/*Puts important info side by side in 2's*/
 .twoway-grid {
      display: grid;
 
@@ -156,15 +145,109 @@ gap: 5px;
 }
 
 
+img {
+
+    /* max-width: 100% prevents an image from becoming 
+    wider than its containing element. 
+    
+    This is useful for responsive websites. */
+    max-width: 100%;
+
+    /* Keeps the image's original proportions. */
+    height: auto;
+
+    aspect-ratio: 1 / 1;
+
+    border-radius: 8px;
+}
+
+textarea { 
+    /* Allow the user to resize the textarea vertically 
+    while keeping the width controlled. */ 
+    resize: vertical; 
+} 
+
+label {
+    font-weight: bold; 
+}
+
+footer {
+    background-color: #939898;
+    color:#000000;
+    text-align: center;
+    padding: 20px;
+
+    /* Rounded top corners. */ 
+    
+    border-radius: 8px;
+}
 
 
+ /* RESPONSIVE Transision- TABLETS  */
+    
+    @media (max-width: 768px) { 
+        
+        /* Change the navigation from a row to a column. 
+            This makes the navigation easier to use on smaller screens. */ 
+            
+        nav ul { 
+            flex-direction: column; 
+            gap: 10px; } 
+                
+        /* Change the three-column grid to two columns. 
+                This gives the content more room on a smaller screen. */ 
+                
+        .services-grid-wrapper { 
+            grid-template-columns: repeat(2, 1fr); 
+            } 
+                
+        /* Reduce the heading size on smaller screens. 
+            2rem is smaller than the desktop 2.5rem heading. */ 
+                
+        header h1 { 
+            font-size: 2rem; } 
+                
+        /* Reduce the main content padding. */ 
+        main { 
+            padding: 0 10px; } 
+                
+        }      
 
 
+/* RESPONSIVE Transision- MOBILE PHONES  */
 
+@media (max-width: 480px) { 
+        
+             
+            .services-grid-wrapper { 
+                grid-template-columns: 1fr; } 
+            
+            /* Make the header heading smaller on phones. */ 
+            
+            header h1 { 
+                font-size: 1.7rem; } 
+            
+            /* Reduce the header padding so that it takes up less space on a small screen. */ 
+            
+            header { 
+                padding: 15px; } 
+            
+            /* Make the logo slightly smaller on mobile. */ 
+            header img { 
+                width: 90px; } 
+            
+            /* Make the form padding smaller on mobile. */ 
+            
+            form { 
+                padding: 15px; 
+            } 
+        }
 
-
-
-
+             footer { 
+                font-size: 0.9rem; 
+                padding: 15px; } 
+            
+            
 
 
 
