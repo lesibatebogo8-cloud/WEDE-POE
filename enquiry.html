@@ -54,16 +54,22 @@
 
 <!-- ENQUIRY -->
 
-<main>
-
-    <h2 align="center">MAKE AN ENQUIRY</h2>
+<main id="main">
+    
+   <h1 align="center">MAKE AN ENQUIRY</h1>
 
     <p align="center">
         Have a question? Complete the form below.pls comment if so
     </p>
+<form id="enquiry-form" action="https://formspree.io/f/your-form-id" method="post">
+
+        <div class="hp" aria-hidden="true">
+            <label for="website">Leave this field empty</label>
+            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+        </div>
 
 
-    <form action="#" method="post">
+    
 
         <table
             width="60%"
@@ -112,16 +118,37 @@
 
                 <td>
 
-                    <select id="service" name="service">
+                   <div class="field">
+                        <select id="service" name="service" aria-describedby="service-error" required>
+                            <option value="">Select an option</option>
+                            <option value="discovery">Game Discovery</option>
+                            <option value="tournament">Gaming Tournaments</option>
+                            <option value="coaching">Gaming Coaching</option>
+                            <option value="setup">Gaming Setup Help</option>
+                            <option value="community">Gaming Community</option>
+                            <option value="news">Gaming News</option>
+                            <option value="gamer">Gamer Package (free)</option>
+                            <option value="pro">Pro Gamer Package</option>
+                            <option value="elite">Elite Gamer Package</option>
+                            <option value="other">Something else</option>
+                        </select>
+                        <p class="error-msg" id="service-error"></p>
+                    </div>
 
-                        <option>Games</option>
-                        <option>Gaming Services</option>
-                        <option>Tournaments</option>
-                        <option>Community</option>
-                        <option>Other</option>
+                </td>
 
-                    </select>
+            </tr>
 
+                
+                <td>
+                    <label for="quantity" id="quantity-label">Number of players:</label>
+                </td>
+
+                <td>
+                    <div class="field">
+                        <input type="number" id="quantity" name="quantity" min="1" max="50" value="1" inputmode="numeric" aria-describedby="quantity-error" required>
+                        <p class="error-msg" id="quantity-error"></p>
+                    </div>
                 </td>
 
             </tr>
@@ -129,19 +156,32 @@
 
             <tr>
 
-                <td valign="top">
-                    <label for="message">Message:</label>
+                <td>
+                    <label for="date">Preferred Date:</label>
                 </td>
 
                 <td>
+                    <div class="field">
+                        <input type="date" id="date" name="date" aria-describedby="date-error" required>
+                        <p class="error-msg" id="date-error"></p>
+                    </div>
+                </td>
 
-                    <textarea
-                        id="message"
-                        name="message"
-                        rows="6"
-                        cols="30"
-                        required>
-                    </textarea>
+            </tr>
+            <tr>
+
+                <td valign="top">
+              <label for="quantity" id="quantity-label">Number of players:</label>
+                
+                </td>
+
+                <td>
+                    <div class="field">
+                        <textarea id="message" name="message" rows="6" cols="30" maxlength="1000" aria-describedby="message-error" required></textarea>
+                        <p class="counter" aria-hidden="true">0 / 1000 characters</p>
+                        <p class="error-msg" id="message-error"></p>
+                    </div>
+                    
 
                 </td>
 
@@ -153,6 +193,9 @@
                 <td></td>
 
                 <td>
+
+                    <p class="form-summary status-msg" role="alert"></p>
+
 
                     <input
                         type="submit"
@@ -170,6 +213,8 @@
 
     </form>
 
+    <div id="enquiry-result" class="result-box form-wrap" tabindex="-1" role="status" hidden></div>
+
 </main>
 
 
@@ -183,7 +228,9 @@
         &copy; 2026 Lunar Gaming. All Rights Reserved.
     </p>
 
-</footer>
+</footer><script src="js/data.js" defer></script>
+<script src="js/forms.js" defer></script>
+<script src="js/script.js" defer></script>
 
 </body>
 
