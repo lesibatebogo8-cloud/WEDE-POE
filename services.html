@@ -303,6 +303,56 @@
     <br>
 
     <hr>
+<!-- ================= SERVICE FINDER ================= -->
+
+    <section id="service-finder">
+
+        <h2 align="center">
+            SERVICE FINDER
+        </h2>
+
+        <p align="center">
+            Search by keyword, filter by category and sort by name or price.
+        </p>
+
+        <div class="toolbar">
+            <div>
+                <label for="service-search">Search services:</label>
+                <input type="search" id="service-search" placeholder="Try coaching, tournaments or free" autocomplete="off">
+            </div>
+            <div>
+                <label for="service-category">Category:</label>
+                <select id="service-category">
+                    <option value="all">All categories</option>
+                    <option value="Discover">Discover</option>
+                    <option value="Compete">Compete</option>
+                    <option value="Learn">Learn</option>
+                    <option value="Community">Community</option>
+                </select>
+            </div>
+            <div>
+                <label for="service-sort">Sort by:</label>
+                <select id="service-sort">
+                    <option value="name-asc">Name (A to Z)</option>
+                    <option value="name-desc">Name (Z to A)</option>
+                    <option value="price-low">Price (low to high)</option>
+                    <option value="price-high">Price (high to low)</option>
+                </select>
+            </div>
+        </div>
+
+        <p id="service-message" class="status-msg" role="status" aria-live="polite"></p>
+
+        <div id="service-list" class="threeway-grid"></div>
+
+        <noscript><p align="center">Please turn on JavaScript to use the service finder. All services are also listed above.</p></noscript>
+
+    </section>
+
+
+    <br>
+
+    <hr>
 
 
 
