@@ -1,3 +1,5 @@
+/* Lunar Gaming - shared data used by the dynamic content and the enquiry form.
+   Keeping it in one place means events, prices and opening hours are edited once. */
 "use strict";
 
 window.LUNAR = {
