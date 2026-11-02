@@ -75,7 +75,7 @@
 
 <!-- ================= MAIN CONTENT ================= -->
 
-<main>
+<main id="main">
 
 
     <!-- PAGE INTRODUCTION -->
@@ -159,24 +159,15 @@
 
 
     <!--Map Location-->
-    <Section>
-    <h2 align="center">
+   <section>
+        <h2 align="center">
             View Location and Direction
         </h2>
-  <align="center">
-     <iframe 
-     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.9276184722994!2d29.44771267512033!3d-23.910962978561177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d827a6d3019f%3A0xac207bf46b6745c8!2sRosebank%20International%20Polokwane%20Campus!5e1!3m2!1sen!2sza!4v1789712263517!5m2!1sen!2sza" 
-     width="600" 
-     height="450" 
-     style="border:0;"
-      allowfullscreen="" 
-      loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
-    </iframe>
-
-
-
-        
-    </Section>
+        <div id="map" role="region" aria-label="Map showing the Lunar Gaming location in Polokwane"></div>
+        <p align="center">
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=-23.910963,29.447713" target="_blank" rel="noopener noreferrer">Get directions in Google Maps</a>
+        </p>
+    </section>
 
 
     <!-- ================= BUSINESS HOURS ================= -->
@@ -190,59 +181,60 @@
 <div class="mission-card">
         <strong> DAY</strong>
         <hr> 
-                <p>Monday</p>
+                <p data-day="1">Monday</p>
                 <br>
-                <p>Tuesday</p>
+                <p data-day="2">Tuesday</p>
                 <br>
-                <p>Wednesday</p>
+                <p data-day="3">Wednesday</p>
                 <br>
-                <p>Thursday</p>
+                <p data-day="4">Thursday</p>
                 <br>
-                <p>Friday</p>
+                <p data-day="5">Friday</p>
                 <br>
-                <p>Saturday</p>
+                <p data-day="6">Saturday</p>
                 <br>
-                <p>Sunday</p>
+                <p data-day="0">Sunday</p>
 </div>
    <div class="mission-card">
     <strong>OPENING HOURS</strong>
     <hr>
-    <p> 08:00 - 18:00</p>
+    <p data-day="1"> 08:00 - 18:00</p>
     <br>
-    <p> 08:00 - 18:00</p>
+    <p data-day="2"> 08:00 - 18:00</p>
     <br>
-    <p> 08:00 - 18:00</p>
+    <p data-day="3"> 08:00 - 18:00</p>
     <br>
-    <p> 08:00 - 18:00</p>
+    <p data-day="4"> 08:00 - 18:00</p>
     <br>
-    <p> 08:00 - 20:00</p>
+    <p data-day="5"> 08:00 - 20:00</p>
     <br>
-    <p> 09:00 - 20:00</p>
+    <p data-day="6"> 09:00 - 20:00</p>
     <br>
-    <p> 09:00 - 16:00</p>
+    <p data-day="0"> 09:00 - 16:00</p>
    </div>           
 <div class="mission-card">
     <strong>STATUS</strong>
     <hr>
-    <p>Open</p>
+    <p data-status-day="1">Open</p>
     <br>
-    <p>Open</p>
+    <p data-status-day="2">Open</p>
     <br>
-    <p>Open</p>
+    <p data-status-day="3">Open</p>
     <br>
-    <p>Open</p>
+    <p data-status-day="4">Open</p>
     <br>
-    <p>Open</p>
+    <p data-status-day="5">Open</p>
     <br>
-    <p>Open</p>
+    <p data-status-day="6">Open</p>
     <br>
-    <p>Open</p>
+    <p data-status-day="0">Open</p>
 </div>
+      
     </section>
 </section>
     <br>
     <hr>
-</main>
+
     <!-- ================= CONTACT FORM ================= -->
 
     <section>
@@ -468,6 +460,48 @@
 
     <hr>
 
+    <!-- ================= FREQUENTLY ASKED QUESTIONS ================= -->
+
+    <section id="faq">
+
+        <h2 align="center">
+            FREQUENTLY ASKED QUESTIONS
+        </h2>
+
+        <div class="accordion-item">
+            <button class="accordion-button" type="button" aria-expanded="false" aria-controls="faq-1">How do I join Lunar Gaming?</button>
+            <div id="faq-1" class="accordion-content" hidden>
+                <p>Joining is free. Choose the free Gamer package on our <a href="services.html">services page</a> or send us an <a href="enquiry.html">enquiry</a>.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" type="button" aria-expanded="false" aria-controls="faq-2">How much do tournaments cost?</button>
+            <div id="faq-2" class="accordion-content" hidden>
+                <p>Tournament entry starts at R50 per player. Premium tournaments are included in the Elite Gamer package.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" type="button" aria-expanded="false" aria-controls="faq-3">Which platforms do you support?</button>
+            <div id="faq-3" class="accordion-content" hidden>
+                <p>We support PC, PlayStation, Xbox and mobile gaming.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" type="button" aria-expanded="false" aria-controls="faq-4">How quickly will you reply?</button>
+            <div id="faq-4" class="accordion-content" hidden>
+                <p>We reply to messages within one business day. For urgent questions please phone us during opening hours.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <br>
+
+    <hr>
 
     <!-- ================= SOCIAL MEDIA ================= -->
 
@@ -478,6 +512,7 @@
         </h2>
 
 </section>
+</main>
 <br>
 
 
@@ -578,6 +613,9 @@
     </p>
 
 </footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+
 <script src="js/data.js" defer></script>
 <script src="js/map.js" defer></script>
 <script src="js/forms.js" defer></script>
